@@ -38,7 +38,10 @@ as if all were numbers.
 Return your answer as a number.
 
 function sumMix(x){
-  const sum = x.reduce((c, a) => Number(c) + Number(a));
-  return sum;
+  let count = 0;
+  for (let i = 0; i < x.length; i++) {
+    count += Number(x[i]);
+  }
+  return count;
 }
 */
