@@ -47,7 +47,9 @@ function sumMix(x){
 */
 
 /* Will You Make It?
-You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
+You were camping with your friends far away from home, but when it's time to go back, 
+you realize that your fuel is running out and the nearest pump is 50 miles away! 
+You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
 
 Considering these factors, write a function that tells you if it is possible to get to the pump or not.
 
@@ -59,11 +61,24 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 */
 
 /* Is he gonna survive? 
-A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?
+A hero is on his way to the castle to complete his mission. However, he's been told that 
+the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets 
+to be defeated, our hero has no idea how many bullets he should carry.. 
+Assuming he's gonna grab a specific given number of bullets and move forward to fight 
+another specific given number of dragons, will he survive?
 
 Return True if yes, False otherwise :)
 
 function hero(bullets, dragons){
   return (bullets >= dragons * 2 ? true : false);
+}
+*/
+
+/* String ends with?
+Complete the solution so that it returns true if the first argument(string) passed in ends 
+with the 2nd argument (also a string).
+
+function solution(str, ending){
+  return (str.endsWith(ending) ? true : false);
 }
 */
