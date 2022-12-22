@@ -237,3 +237,12 @@ function boolToWord( bool ){
   return (bool === true ? "Yes" : "No");
 }
 */
+
+/* Opposite number
+
+Very simple, given an integer or a floating-point number, find its opposite.
+
+function opposite(number) {
+  return number * -1;
+}
+*/
