@@ -336,3 +336,16 @@ function noSpace(x){
   return x.split(" ").join("");
 }
 */
+
+/* Descending Order
+
+Your task is to make a function that can take any non-negative integer as an 
+argument and return it with its digits in descending order. Essentially, 
+rearrange the digits to create the highest possible number.
+
+function descendingOrder(n){
+  let arr = n.toString(10).replace(/\D/g, '0').split('').map(Number).sort().reverse();
+  const int = Number(arr.join(''));
+  return int;
+}
+*/
