@@ -349,3 +349,30 @@ function descendingOrder(n){
   return int;
 }
 */
+
+/* Find the smallest integer in the array
+
+Given an array of integers your solution should find the smallest integer.
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    var lowest = args[0];
+    for (let i = 0; i < args.length; i++) {
+      if (lowest > args[i]) {
+        lowest = args[i];
+      } else {
+        continue;
+      }
+    }
+    return lowest;
+  }
+}
+
+OR
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args)
+  }
+}
+*/
