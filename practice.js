@@ -511,3 +511,16 @@ function greet(name){
   return `Hello, ${name} how are you doing today?`;
 }
 */
+
+/* Beginner - Lost Without a Map
+
+Given an array of integers, return a new array with each value doubled.
+
+function maps(x){
+  let y = [...x];
+  for (let i = 0; i < y.length; i++) {
+    y[i] *= 2;
+  }
+  return y;
+}
+*/
