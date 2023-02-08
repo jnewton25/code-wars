@@ -846,3 +846,10 @@ function simpleMultiplication(number) {
     return (number % 2 === 0 ? number * 8 : number * 9);
 }
 */
+
+/* MakeUpperCase
+
+Write a function which converts the input string to uppercase.
+
+const makeUpperCase = (str) => str.toUpperCase();
+*/
