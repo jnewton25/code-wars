@@ -1132,4 +1132,17 @@ function monkeyCount(n) {
 }
 */
 
-/* Next Kata*/
+/* Sum Mixed Array
+
+Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+
+Return your answer as a number.
+
+function sumMix(x){
+  let y = 0;
+  for (let i = 0; i < x.length; i++) {
+    y += parseInt(x[i]);
+  }
+  return y;
+}
+*/
