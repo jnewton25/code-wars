@@ -1182,3 +1182,14 @@ function getGrade (s1, s2, s3) {
   }
 }
 */
+
+/* Grasshopper - Personalized Message
+
+Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+
+Use conditionals to return the proper message:
+
+function greet (name, owner) {
+  return (name === owner ? "Hello boss" : "Hello guest");
+}
+*/
