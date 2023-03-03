@@ -1203,3 +1203,12 @@ const areaOrPerimeter = function(l , w) {
   return (l === w ? l * w : l + l + w + w);
 };
 */
+
+/* Remove exclamation marks
+
+Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+function removeExclamationMarks(s) {
+  return s.replace(/!/g, '');
+}
+*/
