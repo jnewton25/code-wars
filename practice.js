@@ -1254,3 +1254,23 @@ function feast(beast, dish) {
   return (beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1] ? true : false);
 }
 */
+
+/* Quarter of the year
+
+Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
+
+For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; 
+and month 11 (November), is part of the fourth quarter.
+
+const quarterOf = (month) => {
+  if (month / 4 <= .75) {
+    return 1;
+  } else if (month / 4 <= 1.5 ) {
+    return 2;
+  } else if (month / 4 <= 2.25) {
+    return 3;
+  } else {
+    return 4;
+  }
+}
+*/
