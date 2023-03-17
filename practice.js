@@ -1417,6 +1417,44 @@ If Alex gets 10 or more hoops, return the string "Great, now move on to tricks".
 If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 
 function hoopCount (n) {
-   return (n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it");
+   return (n >= 10 ? "Great, now move on to tricks" : "Keep at i
+   t until you get it");
+}
+*/
+
+/* Get Planet Name By ID
+
+The function is not returning the correct values. Can you figure out why?
+
+function getPlanetName(id){
+  var name;
+  switch(id){
+    case 1:
+      name = 'Mercury';
+      break;
+    case 2:
+      name = 'Venus';
+      break;
+    case 3:
+      name = 'Earth';
+      break;
+    case 4:
+      name = 'Mars';
+      break;
+    case 5:
+      name = 'Jupiter';
+      break;
+    case 6:
+      name = 'Saturn';
+      break;
+    case 7:
+      name = 'Uranus';
+      break;
+    case 8:
+      name = 'Neptune';
+      break;
+  }
+  
+  return name;
 }
 */
