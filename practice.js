@@ -1473,3 +1473,14 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   return Math.abs(dadYearsOld - 2 * sonYearsOld);
 }
 */
+
+/* Grasshopper - Check for factor
+
+This function should test if the factor is a factor of base.
+
+Return true if it is a factor or false if it is not.
+
+function checkForFactor (base, factor) {
+  return (base % factor === 0 ? true : false);
+}
+*/
