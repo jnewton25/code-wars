@@ -1700,3 +1700,14 @@ function createArray(number){
   return newArray;
 }
 */
+
+/* Find out whether the shape is a cube
+
+To find the volume (centimeters cubed) of a cuboid you use the formula:
+
+volume = Length * Width * Height
+
+var cubeChecker = function(volume, side){
+  return (side * side * side === volume && volume > 0 ? true : false);
+}
+*/
