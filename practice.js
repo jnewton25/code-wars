@@ -1751,11 +1751,27 @@ function contamination(text, char){
 
 Your task is to find the nearest square number, nearest_sq(n) or nearestSq(n), of a positive integer n.
 
-For example, if n = 111, then nearest\_sq(n) (nearestSq(n)) equals 121, since 111 is closer to 121, the square of 11, than 100, the square of 10.
+For example, if n = 111, then nearest\_sq(n) (nearestSq(n)) equals 121, since 111 is closer to 121, 
+the square of 11, than 100, the square of 10.
 
 If the n is already the perfect square (e.g. n = 144, n = 81, etc.), you need to just return n.
 
 function nearestSq(n){
     return (Math.pow(Math.round(Math.sqrt(n)), 2));
+}
+*/
+
+/* Classy Extentions
+
+Classy Extensions, this kata is mainly aimed at the new JS ES6 Update introducing extends keyword. 
+You will be preloaded with the Animal class, so you should only edit the Cat class.
+Task
+Your task is to complete the Cat class which Extends Animal and replace the speak method to return 
+the cats name + meows. e.g. 'Mr Whiskers meows.'
+
+class Cat extends Animal {
+  speak() {
+    return `${this.name} meows.`;
+  }
 }
 */
