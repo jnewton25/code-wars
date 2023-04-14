@@ -1827,3 +1827,21 @@ Person.greetExtraTerrestrials = function(raceName) {
   return `Welcome to Planet Earth ${raceName}`;
 }
 */
+
+/* Power
+
+The goal is to create a function of two inputs number and power, that "raises" the number up 
+to power (ie multiplies number by itself power times).
+
+function numberToPower(number, power){
+  let j = number
+  for (let i = 1; i < power; i++) {
+    j *= number;
+  }
+  if (power === 0) {
+    return 1;
+  } else {
+    return j;
+  }
+}
+*/
