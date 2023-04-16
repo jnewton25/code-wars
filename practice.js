@@ -1860,3 +1860,17 @@ function twoSort(s) {
   return s[0].split("").join("***");
 }
 */
+
+/* Add Length
+
+What if we need the length of the words separated by a space to be added at the end of that same 
+word and have it returned as an array?
+
+function addLength(str) {
+  let arr = str.split(" ");
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] += ` ${arr[i].length}`;
+  }
+  return arr;
+}
+*/
