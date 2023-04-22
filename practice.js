@@ -1922,3 +1922,15 @@ function gooseFilter (birds) {
   return birds.filter(i => !geese.includes(i));
 };
 */
+
+/* Did she say hallo?
+
+You received a whatsup message from an unknown number. Could it be from that girl/boy with a 
+foreign accent you met yesterday evening?
+
+Write a simple function to check if the string contains the word hallo in different languages.
+
+function validateHello(greetings) {
+  return /(ahoj|ciao|czesc|h[ae]llo|hola|salut)/i.test(greetings);
+}
+*/
