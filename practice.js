@@ -1986,3 +1986,19 @@ function mango(quantity, price){
   return (quantity - (Math.floor(quantity / 3))) * price;
 }
 */
+
+/* How many lightsabers do you own?
+
+Inspired by the development team at Vooza, write the function that
+
+accepts the name of a programmer, and
+returns the number of lightsabers owned by that person.
+The only person who owns lightsabers is Zach, by the way. He owns 18, which is an awesome number of lightsabers. 
+Anyone else owns 0.
+
+Note: your function should have a default parameter.
+
+function howManyLightsabersDoYouOwn(name) {
+  return name === "Zach" ? 18 : 0;
+}
+*/
