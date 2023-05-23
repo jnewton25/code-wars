@@ -2285,3 +2285,14 @@ const flip=(d, a)=>{
     return d === "R" ? a.sort(function(x, y){return x-y}) : a.sort(function(x, y){return y-x})
   }
 */
+
+/* A wolf in sheep's clothing
+
+If the wolf is the closest animal to you, return "Pls go away and stop eating my sheep". Otherwise, 
+return "Oi! Sheep number N! You are about to be eaten by a wolf!" where N is the sheep's position in the queue.
+
+function warnTheSheep(queue) {
+  let finder = queue.reverse();
+  return finder.indexOf("wolf") > 0 ? `Oi! Sheep number ${finder.indexOf("wolf")}! You are about to be eaten by a wolf!` : "Pls go away and stop eating my sheep";
+}
+*/
