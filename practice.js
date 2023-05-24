@@ -2296,3 +2296,22 @@ function warnTheSheep(queue) {
   return finder.indexOf("wolf") > 0 ? `Oi! Sheep number ${finder.indexOf("wolf")}! You are about to be eaten by a wolf!` : "Pls go away and stop eating my sheep";
 }
 */
+
+/* Draw stairs
+
+Given a number n, draw stairs using the letter "I", n tall and n wide, with the tallest in the top left.
+
+function drawStairs(n) {
+  if (n > 1){ 
+    let str = ''
+    for (let i = 1; i <n; i++){
+      str +=`I\n${' '.repeat(i)}`
+    }
+    return str + 'I';
+  } else if (n === 1) {
+    return 'I';
+  } else {
+    return '';
+  }
+}
+*/
