@@ -2353,3 +2353,11 @@ function pillars(numPill, dist, width) {
    return numPill * ((dist * 100) + width) - (width * 2) - (dist * 100);
 }
 */
+
+/* easy logs
+
+Add two logs with base X, with the value of A and B. Example log A + log B where 
+the base is X.
+
+return (Math.log(a*b) / Math.log(x));
+*/
